@@ -7,29 +7,17 @@
     <body>
         <div class="container">
             <div >
-                <h1 class = "header_text">I don't want to irritate you, but i seriously want apoligize for one last time, and that too a proper one</h1>
-                <h1 id="forgive" class = "header_text">Do you forgive me?</h1>
-            </div>
-            <div class="gif_container">
-                <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdtZ2JiZDR0a3lvMWF4OG8yc3p6Ymdvd3g2d245amdveDhyYmx6eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cLS1cfxvGOPVpf9g3y/giphy.gif" alt="Cute animated illustration">
+                <h1 class = "header_text">hey aaliya,</h1>
+                <h2>i know u asked me to stop thinking about it,<br> but i seriously can' forget it, i just want to apoligize to u once more,<br> like once more fr, i totally agree i was such a dick <br> i promise i'll never do that again, yeah TRUST ME THIS ONCE "how shameless of me"<br><br><br></h3>
             </div>
             <div class = "buttons">
-                <button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
-                <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
-                <script>
-                    function nextPage() {
-                        window.location.href = "yes.html";
-                    }
-                    
-                    function moveButton() {
-                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;
-                        var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
-                        document.getElementById('noButton').style.left = `${x}px`;
-                        document.getElementById('noButton').style.top = `${y}px`;
-                    }
-                </script> 
+                <button class="btn" onclick="nextOne()">Next</button>
             </div>
         </div>
-       
+        <script>
+            function nextOne() {
+                window.location.href = "index.html";
+            }
+        </script>
     </body> 
 </html>
